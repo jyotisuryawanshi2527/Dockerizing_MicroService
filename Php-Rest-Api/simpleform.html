@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Docker1</title>
+
+</style>
+</head>
+<body>
+<form method="POST" action="connect.php">
+
+	   <label for="id">ID :</label><br> 
+	    <input type="text" name="ID"><br><br>
+
+
+	<label for="name">NAME:</label><br>
+	   <input type="text" name="NAME"><br><br>
+	
+	<label for="age">AGE:</label><br>
+	<input type="text" name="AGE"><br><br>
+	
+	 <label for="dname">DEPARTMENT:</label><br>
+	<select name="DEPARTMENT" required><br><br>
+    	<option value="Department of ComputerScience">Department of Computer Science</option>
+            <option value="Department of Biotechnology">Department of Biotechnology</option>
+            <option value="Centre for Network Computing (CNC)">Centre for Network Computing (CNC)</option>
+            <option value="Department Of Mathematics">Department Of Mathematics</option>
+         </select><br><br>
+
+	<lable for="subject">SUBJECT:</label><br>
+ 	    <input type="checkbox" id="sub1" name="sub[]" value="DevOps"            >
+	    <label for="sub1">DevOps</label><br>
+	    <input type="checkbox" id="sub2" name="sub[]" value="Artificial Intelligence">
+	    <label for="sub2">Artificial Intelligence</label><br>
+  	    <input type="checkbox" id="sub3" name="sub[]" value="Project Delivery Management">
+  	    <label for="sub3">Project Delivery Management</label><br>
+	    <input type="checkbox" id="sub4" name="sub[]" value="Machine Learning">
+            <label for="sub4">Machine Learning</label><br>
+	    <input type="checkbox" id="sub5" name="sub[]" value="SD1 SD2 PROJECT">
+            <label for="sub5">SD1 SD2 PROJECT</label><br><br>
+   				
+    
+<input type="submit" value="SUBMIT">
+</form>
+</body>
+</html>
